@@ -6,10 +6,12 @@ body {
   background-image: url(../images/background.jpg);
   background-size: 1000px;
 }
-
+p, li {
+  font-family: 'Roboto';
+  color: #424242;
+}
 .Header {
-  background-color: #757575;
-  opacity: .95;
+  background-color: #9E9E9E;
   box-shadow: 1px 1px 1px rgba(0,0,0,.18);
   text-align: center;
 }
@@ -17,30 +19,81 @@ body {
 .Header--h1 {
   font-size: 4em;
   padding: .5em;
+  color: #424242;
+  text-shadow: 1px 1px 1px #424242;
+  letter-spacing: 1px;
   padding-bottom: .15em;
-  font-family: fantasy, cursive, serif;
+  font-family: 'Kumar One',fantasy, cursive, serif;
 }
 
 .Main {
   width: 80%;
-  margin: 0 auto;
+  margin: 3em auto;
   text-align: center;
 }
 
 .Section--left,
 .Section--right {
   width: 45%;
-  min-height: 500px;
+  min-height: 325px;
   margin: 2%;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.18);
+}
+
+.Section--h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Kumar One',fantasy, cursive, serif;
+  padding: .8em 0;
+  color: #424242;
+  letter-spacing: 2px;
   background-color: #E0E0E0;
-  opacity: .95;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.18);
 }
 
 .Section--left {
   float: left;
 }
 
+.Section--left-article {
+  width: 70%;
+  margin: 3em auto 0 auto;
+  text-align: left;
+  position: relative;
+  height: 120px;
+}
+
+.Section--left-article p {
+  font-size: 1.25em;
+}
+
+.Section--left-article p:first-of-type {
+  margin-bottom: 2em;
+}
+
+.Section--left-article p:last-of-type {
+  position: absolute;
+  bottom: 0;
+}
+
 .Section--right {
   float: right;
+}
+
+.Section--ul {
+  margin-top: 2em;
+}
+
+.answer {
+  padding: .6em;
+  font-size: 1.25em;
+}
+
+.answer:hover {
+  box-shadow: 0 0 9px  rgba(0,0,0,.5);
+  cursor: pointer;
+}
+
+.answer:active {
+  box-shadow: 0 0 9px black;
 }

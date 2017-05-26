@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Kumar+One|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/reset.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <title>Trivia</title>
@@ -12,11 +13,15 @@
   </header>
   <main class="Main">
     <section class="Section--left">
-      <p>Time Remaining: <span id="timeRemaining"></span></p>
-      <p id=question>Whose not a founding father</p>
+      <h3 class="Section--h3">Question</h3>
+      <article class="Section--left-article">
+        <p id=question>Whose not a founding father?</p>
+        <p>Time Remaining: <span id="timeRemaining">120 </span>seconds</p>
+      </article>
     </section>
     <section class="Section--right">
-      <ul>
+      <h3 class="Section--h3">Answers</h3>
+      <ul class="Section--ul">
         <li class="answer">Homer Simpson</li>
         <li class="answer">Sideshow Bob</li>
         <li class="answer">Willie the Groundskeeper</li>
@@ -24,5 +29,7 @@
       </ul>
     </section>
   </main>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
