@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  background-size: 1000px;
+}
+
+.Header {
+  background-color: #757575;
+  opacity: .95;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.18);
+  text-align: center;
+}
+
+.Header--h1 {
+  font-size: 4em;
+  padding: .5em;
+  padding-bottom: .15em;
+  font-family: fantasy, cursive, serif;
+}
+
+.Main {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Section--left,
+.Section--right {
+  width: 45%;
+  min-height: 500px;
+  margin: 2%;
+  background-color: #E0E0E0;
+  opacity: .95;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.18);
+}
+
+.Section--left {
+  float: left;
+}
+
+.Section--right {
+  float: right;
+}
