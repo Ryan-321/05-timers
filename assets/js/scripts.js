@@ -155,7 +155,7 @@ $(document).ready(function () {
   function gameRestart () {
     score.currentWrong = 0
     score.currentRight = 0
-    $('#timeRemaining').text('30')
+    $('#timeRemaining').text('45')
     counter = 0
     $('#Dashboard').hide()
     $('.Main').show()
