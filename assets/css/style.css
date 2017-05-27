@@ -10,6 +10,11 @@ p, li {
   font-family: 'Roboto';
   color: #424242;
 }
+
+main {
+  display: none;
+}
+
 .Header {
   background-color: #9E9E9E;
   box-shadow: 1px 1px 1px rgba(0,0,0,.18);
@@ -96,4 +101,49 @@ p, li {
 
 .answer:active {
   box-shadow: 0 0 9px black;
+}
+
+#Div--right,
+#Div--wrong {
+  display: none;
+  height: 225px;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#Dashboard {
+  width: 50%;
+  margin: 3em auto;
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  background-size: contain;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.18);
+}
+#Dashboard--button {
+  padding: .5em 1.25em;
+  color: #424242;
+  border: 3px solid grey;
+  box-shadow: 2px 2px 2px #424242;
+  font-size: 2em;
+  align-self: center;
+  cursor: pointer;
+  font-family: 'Kumar One',fantasy, cursive, serif;
+}
+
+#Dashboard--section {
+  display: none;
+}
+
+#Dashboard--section p {
+  font-family: 'Kumar One',fantasy, cursive, serif;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
